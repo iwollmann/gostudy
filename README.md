@@ -8,37 +8,17 @@ Simple webservice written in Golang without any 3rd party library to process a m
 1. Echo
     - Return the matrix as a string in matrix format.
 
-        ```
-        POST http://localhost:8080/echo
-        ```
-
 2. Invert
     - Return the matrix as a string in matrix format where the columns and rows are inverted
 
-        ```
-        POST http://localhost:8080/invert
-        ```
-
 3. Flatten
     - Return the matrix as a 1 line string, with values separated by commas.
-
-        ```
-        POST http://localhost:8080/flatten
-        ```
-
+    - 
 4. Sum
     - Return the sum of the integers in the matrix
 
-        ```
-        POST http://localhost:8080/sum
-        ```
-
 5. Multiply
     - Return the product of the integers in the matrix
-        
-        ```
-        POST http://localhost:8080/multiply
-        ```
 
 
 ### Examples
