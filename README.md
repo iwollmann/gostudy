@@ -1,4 +1,4 @@
-[[![Build Status](https://github.com/iwollmann/gostudy/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/iwollmann/gostudy/actions/workflows/go.yml)
+[![Build Status](https://github.com/iwollmann/gostudy/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/iwollmann/gostudy/actions/workflows/go.yml)
 [![Coverage Status](https://coveralls.io/repos/github/iwollmann/gostudy/badge.svg?branch=main)](https://coveralls.io/github/iwollmann/gostudy?branch=main)
 
 
