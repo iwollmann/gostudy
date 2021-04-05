@@ -1,3 +1,5 @@
+[![Build Status](https://github.com/iwollmann/gostudy/workflows/go/badge.svg)](https://github.com/iwollmann/gostudy/actions?workflow=go)
+
 # Golang WebService Sample
 Simple webservice written in Golang without any 3rd party library to process a matrix from csv file and perform some operations.
 
