@@ -1,4 +1,6 @@
 [![Build Status](https://github.com/iwollmann/gostudy/workflows/go/badge.svg)](https://github.com/iwollmann/gostudy/actions?workflow=go)
+[![Coverage Status](https://coveralls.io/repos/github/iwollmann/gostudy/badge.svg?branch=master)](https://coveralls.io/github/iwollmann/gostudy?branch=master)
+
 
 # Golang WebService Sample
 Simple webservice written in Golang without any 3rd party library to process a matrix from csv file and perform some operations.
