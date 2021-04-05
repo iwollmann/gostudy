@@ -1,5 +1,5 @@
 [![Build Status](https://github.com/iwollmann/gostudy/workflows/go/badge.svg)](https://github.com/iwollmann/gostudy/actions?workflow=go)
-[![Coverage Status](https://coveralls.io/repos/github/iwollmann/gostudy/badge.svg?branch=master)](https://coveralls.io/github/iwollmann/gostudy?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/iwollmann/gostudy/badge.svg?branch=main)](https://coveralls.io/github/iwollmann/gostudy?branch=main)
 
 
 # Golang WebService Sample
