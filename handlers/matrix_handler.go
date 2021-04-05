@@ -36,6 +36,14 @@ func (mc matrixHandler) AcceptOnlyPostMiddleware(next http.Handler) http.Handler
 
 func (mc matrixHandler) ValidateMiddleware(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		err := r.ParseMultipartForm(10<<10) // limit your max input length to 10Mb!
+		if err !=nil {
+			w.WriteHeader(http.StatusBadRequest)
+			w.Write([]byte("csv max length is 10 Mb"))
+			return
+		}
+
+
 		file, _, err := r.FormFile("file")
 		if err != nil {
 			w.WriteHeader(http.StatusBadRequest)
@@ -126,6 +134,10 @@ func (mc matrixHandler) Multiply(w http.ResponseWriter, r *http.Request){
 func (mc matrixHandler) validate(mx [][]string) ([][]int ,error){
 	rowsCount := len(mx)
 	mx2 := make([][]int, rowsCount);
+	if rowsCount == 0 {
+		return mx2, errors.New("empty matrix")
+	}
+
 	for i := range mx {
 		if (rowsCount != len(mx[i])) {
 			return mx2, errors.New("this is not a perfect matrix")
