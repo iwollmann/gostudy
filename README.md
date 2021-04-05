@@ -71,24 +71,6 @@ curl -F 'file=@matrix_sample.csv' -v http://localhost:8080/multiply
 docker-compose up
 ```
 
-## Makefile
-- Build binary to ./build/
-```
-make build
-```
-- Run tests
-```
-make test
-```
-- Clean up tests and binary files
-```
-make clean
-```
-- Build For Linux
-```
-make build-linux
-```
-
 ## Go version
 ``go1.16.2 linux/amd64``
 
