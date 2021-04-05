@@ -13,7 +13,7 @@ Simple webservice written in Golang without any 3rd party library to process a m
 
 3. Flatten
     - Return the matrix as a 1 line string, with values separated by commas.
-    - 
+ 
 4. Sum
     - Return the sum of the integers in the matrix
 
